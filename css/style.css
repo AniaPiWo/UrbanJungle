@@ -1,0 +1,185 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+ 
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background-color: #181818;
+    color: white;
+}
+
+[id] {
+    scroll-margin-top: 54px;
+}
+
+/*hero section*/
+ 
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: -1;
+}
+
+.hero-title {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+      animation: pulsate 0.11s ease-in-out infinite alternate;    
+  }
+
+  @keyframes pulsate {
+    
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #f09,
+        0 0 80px #f09,
+        0 0 90px #f09,
+        0 0 100px #f09,
+        0 0 150px #f09;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #f09,
+      0 0 73px #f09,
+      0 0 80px #f09,
+      0 0 94px #f09,
+      0 0 140px #f09;
+  
+  }
+  }
+
+/* .leaf-color {
+    color: rgb(25, 110, 39)
+} */
+
+.neon-green {
+    color: #0FFF50;
+}
+
+.neon-pink {
+    color: #f09;
+}
+
+/* nav */
+.navbar-brand {
+    font-size: 2.2rem;
+}
+
+.nav-link, .navbar-toggler-icon {
+    font-style: 1.8rem;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    padding: 0.5em 1em;
+}
+
+.navbar {
+    background-color: #181818;
+}
+
+
+/* welcome section */
+.home {
+    position: relative;
+    height: 60rem;
+    z-index: 0;
+    background-image: url(/img/bg-leaf-desk.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home .btn {
+    padding: 1em 2em;
+    font-size: 1.4rem;
+}
+
+.home .welcome-text {
+    font-size: 2.2rem;
+}
+
+/* about us section */
+
+.aboutus-box h3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.aboutus-box {
+    border-radius: 5px;
+}
+
+.aboutus-icon {
+   font-size: 1.5em;
+}
+
+/* acordeon */
+
+.accordion-button {
+    padding: 1em;
+    font-size: 1.8rem;
+    background-color: #181818;
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    /* background-color: rgb(25, 110, 39, 0.9); */
+    background-color: white;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-body {
+    padding: 1rem 1.25rem;
+    background-color: #181818;
+}
+
+/* our team section */
+
+.team {
+    background-color: #252525
+}
+
+.card-body {
+    background-color: #181818;
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+} 
+
