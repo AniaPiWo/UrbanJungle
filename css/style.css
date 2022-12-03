@@ -116,7 +116,7 @@ body {
     position: relative;
     height: 60rem;
     z-index: 0;
-    background-image: url(./img/bg-leaf-desk.png);
+    background-image: url(../img/bg-leaf-desk.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
